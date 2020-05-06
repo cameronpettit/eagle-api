@@ -65,7 +65,10 @@ async function update(defaultLog) {
           city: user['city'],
           province: user['province'],
           country: user['country'],
+<<<<<<< HEAD
           postalCode: user['postalCode'],
+=======
+>>>>>>> Pulling refs/heads/develop into TEST (#546) (#548)
           notes: user['notes']
         }
       },
