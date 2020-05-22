@@ -228,7 +228,7 @@
                       "name": "_GETOK_CLIENTID",
                       "valueFrom": {
                           "secretKeyRef": {
-                              "key": "CLIENT_ID",
+                              "key": "CLIENTID",
                               "name": "${CHES_SECRET_NAME}"
                           }
                       }
@@ -649,6 +649,12 @@
       "displayName": "Name of the CHES secret",
       "description": "The name of the secrets file for CHES",
       "value": "getok-secret"
+    },
+    {
+      "name": "ENABLE_VIRUS_SCANNING",
+      "displayName": "Virus Scanning",
+      "description": "Boolean string to enable or disable virus scanning.",
+      "value": "false"
     }
   ]
 }
